@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="cover">
+        <item>@drawable/hinh1</item>
+        <item>@drawable/hinh2</item>
+        <item>@drawable/hinh3</item>
+        <item>@drawable/hinh4</item>
+        <item>@drawable/hinh5</item>
+        <item>@drawable/hinh6</item>
+        <item>@drawable/hinh7</item>
+        <item>@drawable/hinh8</item>
+        <item>@drawable/hinh9</item>
+        <item>@drawable/hinh10</item>
+    </array>
+</resources>

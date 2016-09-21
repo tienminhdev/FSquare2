@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/info"
+            android:title="Info" />
+        <item
+            android:id="@+id/avatar"
+            android:title="Update avatar" />
+        <item
+            android:id="@+id/cover"
+            android:title="Update cover photo" />
+        <item
+            android:id="@+id/remove"
+            android:title="Remove story" />
+    </group>
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/qrcode"
+                android:title="My QR Code"/>
+            <item
+                android:id="@+id/privatesetting"
+                android:title="Private setting"/>
+            <item
+                android:id="@+id/account"
+                android:title="Manage account"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black_18dp"/>
+        <item
+            android:id="@+id/chat"
+            android:title="Chat"
+            android:icon="@android:drawable/stat_notify_chat"/>
+        <item
+            android:id="@+id/friends"
+            android:title="Friends"
+            android:icon="@drawable/ic_supervisor_account_white_48dp"/>
+        <item
+            android:id="@+id/income"
+            android:title="Incoming Request"
+            android:icon="@drawable/ic_account_in"/>
+
+        <item
+            android:id="@+id/outgo"
+            android:title="Outgoing Request"
+            android:icon="@drawable/ic_account_out"/>
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_account_circle"/>
+
+        <item
+            android:id="@+id/settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_settings_black_18dp"/>
+        <item
+            android:id="@+id/about"
+            android:title="About"
+            android:icon="@android:drawable/ic_menu_info_details"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@android:drawable/ic_lock_power_off"/>
+    </group>
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1048749366769",
+    "firebase_url": "https://fsquare-871c2.firebaseio.com",
+    "project_id": "fsquare-871c2",
+    "storage_bucket": "fsquare-871c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048749366769:android:9888f9366666b04c",
+        "android_client_info": {
+          "package_name": "dev.tienminh.fsquare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048749366769-qladsag8hu8kdip6ng7815rl9asn64al.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.tienminh.fsquare",
+            "certificate_hash": "10A0ACFFBB0834866D718C461CFCEC4559A08D72"
+          }
+        },
+        {
+          "client_id": "1048749366769-i2fofkfg023c9qvtbqiqrsffgtvvmsup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNAcLLbvyNvRpAfng06i2Ttj0zdTgSak4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048749366769-i2fofkfg023c9qvtbqiqrsffgtvvmsup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.tienminh.fsquare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/myTheme">
+        <activity android:name=".IntroSlide.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomePage.HomePage" />
+        <activity android:name=".HomePage.Detail_item" />
+        <activity
+            android:name=".Start.Login"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".Start.Register"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".Start.Forgot_Password"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".Setting.Settings"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".Message.Message" />
+        <activity android:name=".View.FullScreenImageActivity" />
+        <activity
+            android:name=".MyTimeLine.MyTimeLine"
+            android:parentActivityName=".HomePage.HomePage"
+            android:theme="@style/myTheme" />
+        <activity android:name=".TimeLine.TimeLine"></activity>
+    </application>
+
+</manifest>
